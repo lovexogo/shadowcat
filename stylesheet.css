@@ -1,0 +1,62 @@
+body {
+	max-width: 980px;
+}
+
+a, p, span {
+	font-family: Helvetica, Sans-Serif, Museo-Sans;
+}
+
+nav ul {
+	-webkit-padding-start: 0;
+}
+nav li  {
+	display: inline;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.menu {
+	width: 70%;
+	padding-top: 60px;
+}
+
+.contact {
+	float: right;
+}
+
+.headline {
+	position: absolute;
+	left: 350px;
+	top: 125px;
+	color: white;
+}
+p.orange { 
+	color: #f57d1f;
+	font-weight: bold;
+}
+p.red { 
+	color: #f05f54;
+	font-weight: bold;
+}
+p.purple { 
+	color: #7e4464;
+	font-weight: bold;
+}
+
+.width33 {
+	width: 33%;
+}
