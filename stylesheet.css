@@ -1,18 +1,50 @@
 body {
-	max-width: 980px;
+	color: #333333;
+	margin: 0 auto;
 }
+
+.fixed980 {
+  max-width: 980px;
+  margin: 12% auto;
+}
+
+@media only screen and (min-width : 1281px) {
+	.fixed980 {
+		margin: 14% auto;
+	}
+}
+
+@media only screen and (max-width : 1280px) {
+	.fixed980 {
+		margin: 10% auto;
+	}
+}
+@media only screen and (max-width : 1080px) {
+	.fixed980 {
+		margin: 8% auto;
+	}
+}
+
 
 a, p, span {
 	font-family: Helvetica, Sans-Serif, Museo-Sans;
+	font-size: 14px
+}
+
+nav { 
+	margin-bottom: 10px; 
+	width: 100%;
 }
 
 nav ul {
 	-webkit-padding-start: 0;
+	margin: 0;
 }
 nav li  {
 	display: inline;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 7%;
+	padding-right: 7%;
+	font-size: 14px;
 }
 
 nav li a {
@@ -31,19 +63,34 @@ nav li a {
 
 .menu {
 	width: 70%;
-	padding-top: 60px;
+	padding-top: 90px;
+	text-align: center;
 }
 
-.contact {
-	float: right;
+.header {
+	height: 288px;
+}
+.header img {
+	position: absolute;
+  left: 0;
+  top: 130px;
+  width: 100%
+}
+.header-text {
+	z-index: 100;
+	position: absolute;    
+  color: white;
+  font-size: 24px;
+  top: 10px;
+  left: 33%;
+  text-align: center;
 }
 
 .headline {
-	position: absolute;
-	left: 350px;
-	top: 125px;
+	position: relative;
 	color: white;
 }
+
 p.orange { 
 	color: #f57d1f;
 	font-weight: bold;
@@ -57,6 +104,64 @@ p.purple {
 	font-weight: bold;
 }
 
-.width33 {
-	width: 33%;
+.three-section { margin-top: 15px; }
+
+.blurb {
+	width: 284px;
+	vertical-align: top;
+	padding: 0 20px;
 }
+
+.main-content {
+  text-align: center;
+  margin: 0 130px;
+}
+.main-content p {
+	font-size: 16px;
+}
+
+p.p24 {
+	font-size: 24px;
+}
+.top-padding {
+	margin-top: 30px;
+}
+.top-zero {
+	margin-top: 0;
+}
+
+table {
+	border-spacing: 0;
+	background-color: #ebebda;
+	width: 701px;
+	font-size: 12px;
+}
+table span, table p, table strong {
+	font-size: 12px;
+}
+table td { 
+	padding: 6px; 
+	width: 323px;
+}
+
+table {	text-align: left; }
+table .space { 
+	width: 5px; 
+}
+table .color {
+	background-color: #f05f54;
+	color: white;
+	padding: 0;
+}
+table .num {
+	width: 30px;
+	vertical-align: top;
+	text-align: center;
+}
+.bottom {
+	height: 20px;
+}
+.narrow-margin {
+	margin: 0 85px;
+}
+
