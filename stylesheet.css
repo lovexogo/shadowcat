@@ -104,12 +104,13 @@ p.purple {
 	font-weight: bold;
 }
 
-.three-section { margin-top: 15px; }
+.five-section { margin-top: 15px; }
+.five-section img { width: 100%; }
 
 .blurb {
-	width: 284px;
+	width: 184px;
 	vertical-align: top;
-	padding: 0 20px;
+	padding: 0 4px;
 }
 
 .main-content {
@@ -158,6 +159,8 @@ table .num {
 	vertical-align: top;
 	text-align: center;
 }
+table img { width: 100%; }
+
 .bottom {
 	height: 20px;
 }
@@ -165,3 +168,8 @@ table .num {
 	margin: 0 85px;
 }
 
+.shadow-form {
+	width: 650px;
+	padding: 20px 0 100px;
+	margin-left: 24%;
+}
